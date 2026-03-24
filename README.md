@@ -27,13 +27,13 @@ The system allows switching between:
 📦 Persistent user storage (pickle + salted hashing)
 🏗️ Project Structure
 .
-├── HybridClient.py       # GUI client application :contentReference[oaicite:0]{index=0}
-├── HybridServer.py       # Multi-threaded server :contentReference[oaicite:1]{index=1}
-├── TCP_AES.py            # AES encryption utilities :contentReference[oaicite:2]{index=2}
-├── TCP_RSA.py            # RSA encryption utilities :contentReference[oaicite:3]{index=3}
-├── tcp_by_size.py        # TCP framing protocol :contentReference[oaicite:4]{index=4}
-├── AsyncMessages.py      # Thread-safe message queue :contentReference[oaicite:5]{index=5}
-├── crypto_utils.py       # (duplicate AES helpers) :contentReference[oaicite:6]{index=6}
+├── HybridClient.py       # GUI client application 
+├── HybridServer.py       # Multi-threaded server 
+├── TCP_AES.py            # AES encryption utilities 
+├── TCP_RSA.py            # RSA encryption utilities 
+├── tcp_by_size.py        # TCP framing protocol 
+├── AsyncMessages.py      # Thread-safe message queue
+├── crypto_utils.py       # (duplicate AES helpers)
 ├── Users.pkl             # Stored users (generated)
 ├── server_public.key     # Server RSA public key
 ├── server_private.key    # Server RSA private key
